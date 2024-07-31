@@ -1,0 +1,21 @@
+.barraNavegacao {
+    background-color: rgb(112, 8, 8);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 98%;
+}
+
+.my-carousel {
+    width: 600%;
+    height: 400%;
+    overflow: hidden;
+}
+
+.my-carousel, .carousel-item img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
